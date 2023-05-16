@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #426aed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    border: 10px solid white;
+}
+
+img {
+    height: 100%;
+    width: 85%;
+    flex: 1;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px 300px;
+    margin-top: 250px;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    color: white;
+    font-family: 'Century Gothic';
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+h1.name {
+    color: orange;
+    font-weight: bold;
+    /* Apply bold font weight */
+}
+
+p {
+    font-size: 1.3rem;
+    padding: 0 10px;
+    font-family: 'Century Gothic';
+    color: white;
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    font-family: 'Century Gothic';
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 0 10px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.grid-item {
+    background-color: #426aed;
+    
+  }
+  .grid-item h2.count{
+    color: white;
+    text-align: justify;
+    
+  }  
+.grid-item p{
+    font-size: medium;
+}
